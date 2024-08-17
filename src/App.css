@@ -10,9 +10,10 @@
 }
 
 .nav-ul li a {
-  color: #fff;
+  color: black;
   padding: 5px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-ul {
@@ -52,29 +53,12 @@
   padding: 10px;
   border: 1px solid;
   cursor: pointer;
+  font-weight: bold;
 
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.nav-right {
+  text-align: right;
 }
 
 @keyframes App-logo-spin {
