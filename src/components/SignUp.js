@@ -77,4 +77,4 @@ const SignUp = () => {
     );
 };
 
-export default SignUp;  // Exporting the SignUp component for use in other parts of the application
+export default SignUp;  // Exporting the SignUp component for use in other parts of the applications
