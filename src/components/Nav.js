@@ -11,6 +11,9 @@ const Nav = () => {
     }
     return (
         <div>
+            <img src="https://eshop.theitcommerce.com/storage/app/public/company/2023-10-09-65243671e1aa8.png" 
+            alt="logo" 
+            className="logo"/>
             {
                 auth ?
                     <ul className="nav-ul">
